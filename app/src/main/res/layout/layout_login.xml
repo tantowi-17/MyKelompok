@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCard"
+    app:cardCornerRadius="@dimen/loginCardRadius"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+    android:background="@color/whiteCardColor">
+
+
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/loginViewsMargin">
+
+        <TextView
+            style="@style/headerTextPrimary"
+            android:text="Biodata Mahasiswa"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmail"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextEmail"
+                style="@style/modifiedEditText"
+                android:inputType="text"
+                android:maxLines="1"
+                android:hint="Plain Text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextPassword"
+                style="@style/modifiedEditText"
+                android:hint="pass"
+                android:maxLines="1"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword3"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextPassword3"
+                style="@style/modifiedEditText"
+                android:hint="Password (Numeric)"
+                android:maxLines="1"
+                android:maxLength="6"
+                android:inputType="numberPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword4"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextPassword4"
+                style="@style/modifiedEditText"
+                android:hint="Email"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword5"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextPassword5"
+                style="@style/modifiedEditText"
+                android:hint="Phone"
+                android:maxLines="1"
+                android:inputType="phone"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword7"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextPassword7"
+                style="@style/modifiedEditText"
+                android:hint="Postel Address"
+                android:maxLines="1"
+                android:inputType="textPostalAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword8"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Multi-Text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat mi eget magna volutpat convallis. Vivamus justo leo, accumsan ac vulputate vitae, gravida quis mauris." />
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/textInputPassword9"-->
+<!--            style="@style/parent"-->
+<!--            android:layout_marginTop="@dimen/loginViewsMargin">-->
+            <TimePicker android:id="@+id/timePicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword11"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <DatePicker
+                android:id="@+id/datePicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:datePickerMode="calendar"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword12"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextPassword12"
+                style="@style/modifiedEditText"
+                android:hint="Number Signed"
+                android:maxLines="1"
+                android:inputType="numberSigned"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword13"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextPassword13"
+                style="@style/modifiedEditText"
+                android:hint="Number Decimal"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:maxLength="6"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword14"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextPassword14"
+                style="@style/modifiedEditText"
+                android:hint="Auto Complete Text"
+                android:maxLines="1"
+                android:inputType="textAutoComplete"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword15"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTextViewDefault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:ems="10"
+                android:hint="Enter Search Terms here" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword16"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="17dp"
+                android:ems="10"
+                android:text="">
+
+                <requestFocus />
+            </AutoCompleteTextView>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
